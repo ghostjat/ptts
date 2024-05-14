@@ -1,0 +1,21 @@
+{
+    "name": "ghostjat/ptts",
+    "description": "Description of project ptts.",
+    "authors": [
+        {
+            "name": "shubham chaudhary",
+            "email": "ghost.jat@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Core\\": "app/Core"
+        }
+    },
+    "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+    },
+    "require": {}
+}
